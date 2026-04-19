@@ -51,13 +51,25 @@ Typography: [Inter](https://fonts.google.com/specimen/Inter) via Google Fonts (l
 ├── assets/
 │   ├── css/style.css       # Design tokens + components + layout
 │   ├── js/main.js          # Mobile nav, FAQ accordion, form handler
-│   └── img/                # Reserved (current build references Unsplash photos)
+│   └── img/                # Brand photography mirrored from the live site
 └── README.md
 ```
+
+## Image credits
+
+All photography is reused from the original Letz Work Safe site
+(`letz.inarbeit-webdesign.de/wp-content/uploads/2026/03/`) and mirrored locally:
+
+| File | Used on |
+| --- | --- |
+| `letz-768x718.png` | Home hero, Über-uns portrait (cut-out PNG on teal gradient) |
+| `arbeitssicherheit01-1024x683.jpg` | Leistungen → Arbeitssicherheit |
+| `gefahrenbegutachtung-1024x683.jpg` | Leistungen → Gefährdungsbeurteilungen |
+| `arbeitssicherheit02-1024x683.jpg` | Leistungen → Betriebsanweisungen, Home about-teaser |
+| `schulung-1024x683.jpg` | Leistungen → Schulungen & Unterweisungen |
 
 ## Notes
 
 - No backend: the contact form validates with HTML5 + a tiny JS handler that swaps the form for a success card.
 - All icons are inline SVG — no icon font dependency.
-- Hero / feature photography is referenced from Unsplash CDN URLs; replace with branded photography for production.
 - Legal pages (`impressum.html`, `datenschutz.html`) are stubs — fill with the real legal copy before going live.
